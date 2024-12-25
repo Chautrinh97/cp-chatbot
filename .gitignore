@@ -1,0 +1,5 @@
+test.py
+.venv/
+.env
+sentence-transformers/
+__pycache__/
