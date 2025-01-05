@@ -3,4 +3,3 @@ test.py
 .env
 sentence-transformers/
 __pycache__/
-upload/
