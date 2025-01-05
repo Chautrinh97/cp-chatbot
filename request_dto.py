@@ -10,6 +10,7 @@ class SyncRequest(BaseModel):
     isRegulatory: str
     validityStatus: str
     invalidDate: str
+    key: str
     fileUrl: str
 
 class QuestionRequest(BaseModel):
@@ -18,9 +19,11 @@ class QuestionRequest(BaseModel):
     
 class UnsyncRequest(BaseModel):
     doc_id: str
-    
+    key: str    
+
 class RemoveAndSyncRequest(SyncRequest):
     doc_id: str
-    
+    old_key: str
+
 class ResyncRequest(SyncRequest):
     doc_id: str
