@@ -20,6 +20,7 @@ from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface_optimum import OptimumEmbedding
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.lmstudio import LMStudio
+from llama_index.llms.ollama import Ollama
 from llama_index.core import StorageContext, SimpleDirectoryReader
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_parse import LlamaParse
@@ -122,10 +123,16 @@ def load_llm_embedding_model():
         max_tokens=2048,
     )
 
-    LLM["LMStudio"] = LMStudio(
-        model_name=os.getenv("LLMSTUDIO_MODEL"),
-        request_timeout=60.0,
-        temperature=0.5,
+    # LLM["LMStudio"] = LMStudio(
+    #     model_name=os.getenv("LLMSTUDIO_MODEL"),
+    #     request_timeout=60.0,
+    #     temperature=0.6,
+    # )
+    
+    LLM['Ollama'] = Ollama(
+        model=os.getenv("OLLAMA_MODEL"),
+        request_timeout=120.0,
+        temperature=0.6,
     )
 
     # Theo kieu inference
@@ -304,7 +311,7 @@ async def create_engine():
     retriever_auto = VectorIndexAutoRetriever(
         index=INDEX,
         vector_store_info=get_vector_store_info(),
-        llm=LLM['LMStudio'],
+        llm=LLM['Ollama'],
         similarity_top_k=7,
     )
     # Default retriever
@@ -315,7 +322,7 @@ async def create_engine():
     retriever = QueryFusionRetriever(
         retrievers=[default_retriever, retriever_auto],
         num_queries=1,
-        llm=LLM['Gemini'],
+        llm=LLM['Ollama'],
         mode='relative_score',
     )
     engine = ContextChatEngine.from_defaults(
