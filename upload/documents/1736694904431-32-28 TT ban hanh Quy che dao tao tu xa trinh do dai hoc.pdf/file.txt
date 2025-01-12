@@ -1,0 +1,621 @@
+# BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+# Độc lập - Tự do - Hạnh phúc
+
+Số: 28 /2023/TT-BGDĐT
+
+Hà Nội, ngày 28 tháng 12 năm 2023
+
+# TRƯỜNG ĐẠI HỌC BÁCH KHOA
+
+# THÔNG TƯ
+
+# CÔNG VĂN ĐIỆN TỬ
+
+Ban hành Quy chế đào tạo từ xa trình độ đại học
+
+Căn cứ Luật Giáo dục ngày 14 tháng 6 năm 2019;
+
+Căn cứ Luật Giáo dục đại học ngày 18 tháng 6 năm 2012 và Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học ngày 19 tháng 11 năm 2018;
+
+Căn cứ Nghị định số 86/2022/NĐ-CP ngày 24 tháng 10 năm 2022 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Giáo dục và Đào tạo;
+
+Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ hướng dẫn thi hành một số điều của Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học;
+
+Theo đề nghị của Vụ trưởng Vụ Giáo dục Đại học;
+
+Trưởng Bộ Giáo dục và Đào tạo ban hành Thông tư ban hành Quy chế đào tạo từ xa trình độ đại học.
+
+# Điều 1.
+
+Ban hành kèm theo Thông tư này Quy chế đào tạo từ xa trình độ đại học.
+
+# Điều 2.
+
+Thông tư này có hiệu lực kể từ ngày 12 tháng 02 năm 2024, áp dụng đối với các khóa tuyển sinh hình thức đào tạo từ xa trình độ đại học.
+
+# Điều 3.
+
+Chánh Văn phòng Bộ, Vụ trưởng Vụ Giáo dục Đại học, thủ trưởng các đơn vị có liên quan thuộc Bộ Giáo dục và Đào tạo; giám đốc các đại học, học viện; hiệu trưởng các trường đại học; hiệu trưởng hoặc giám đốc các trường của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, lực lượng vũ trang nhân dân; các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này.
+
+# Nơi nhận:
+
+- Văn phòng Quốc hội;
+- Văn phòng Chính phủ;
+- Ủy ban VHGD của Quốc hội;
+- Ban Tuyên giáo Trung ương;
+- Các bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ;
+- Kiểm toán Nhà nước;
+- Cổng thông tin điện tử của Chính phủ;
+- Cổng thông tin điện tử của Bộ GDĐT;
+
+KT. BỘ TRƯỞNG
+
+KT. BỘ TRƯỞNG
+
+Hoàng Minh Sơn
+---
+# BỘ GIÁO DUC VÀ ĐÀO TẠO
+
+# QUY CHẾ
+
+# Thông tư s928 /2023/TT-BGDĐT ngày B tháng năm 2023
+
+# Thông tư s/2023/TT-BGDĐT ngày tháng 14 tháng 2023
+
+# Chương I
+
+# NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
+
+1. Quy chế này quy định về đào tạo từ xa trình độ đại học; bao gồm:
+- Những quy định chung;
+- Lập kế hoạch và tổ chức giảng dạy;
+- Đánh giá kết quả học tập và cấp văn bằng;
+- Tổ chức thực hiện.
+2. Quy chế này áp dụng đối với các cơ sở giáo dục đại học, trường của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, lực lượng vũ trang; các tổ chức, cá nhân có liên quan đến đào tạo từ xa trình độ đại học.
+3. Quy chế này là căn cứ để cơ sở đào tạo xây dựng ban hành các quy định tại cơ sở đào tạo (sau đây gọi là quy chế của cơ sở đào tạo).
+4. Quy chế này không áp dụng đối với việc tổ chức đào tạo những chương trình đào tạo từ xa trình độ đại học do cơ sở giáo dục nước ngoài cấp văn bằng (bao gồm cả các chương trình liên kết đào tạo với nước ngoài theo quy định về hợp tác, đầu tư của nước ngoài trong lĩnh vực giáo dục).
+
+Điều 2. Giải thích từ ngữ
+
+Trong Quy chế này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Hình thức đào tạo từ xa là hình thức đào tạo có 50% tổng khối lượng của chương trình đào tạo trở lên được thực hiện theo một hoặc kết hợp giữa phương thức đào tạo từ xa.
+2. Phương thức Mạng máy tính và viễn thông sử dụng công nghệ thông tin, chủ yếu là máy tính, thiết bị di động và mạng internet hoặc mạng viễn thông để truyền tải thông tin và tạo môi trường cho giảng viên và người học tương tác.
+3. Phương thức Thư tín sử dụng thư tín hoặc bưu điện để truyền tải thông tin giữa giảng viên và người học.
+---
+# 1. Chương trình đào tạo từ xa
+
+Chương trình đào tạo từ xa là chương trình đào tạo đang áp dụng cho cơ sở đào tạo (sau đây gọi tắt là chương trình đào tạo chính quy) được điều chỉnh và mô tả cụ thể trong đề cương chi tiết của mỗi học phần cho phù hợp với hình thức đào tạo từ xa về phương pháp dạy - học, thời lượng dạy - học, học liệu, đánh giá kết quả học tập.
+
+Trong đó yêu cầu sử dụng chủ yếu phương thức Mạng máy tính và viễn thông.
+
+# 2. Hệ thống đào tạo từ xa
+
+Hệ thống đào tạo từ xa của cơ sở đào tạo là hệ thống tổng thể bao gồm các thành phần cơ bản: bộ phận phụ trách tổ chức và quản lý đào tạo; các văn bản quy định về đào tạo từ xa; chương trình đào tạo từ xa; học liệu đào tạo từ xa; đội ngũ giảng viên, cán bộ hỗ trợ học tập; cán bộ quản lý; hệ thống quản lý giảng dạy; hệ thống kiểm tra, đánh giá; hệ thống kỹ thuật hỗ trợ.
+
+# 3. Chương trình đào tạo từ xa và thời gian học tập
+
+Chương trình đào tạo từ xa có kế hoạch học tập chuẩn toàn khóa theo thời gian theo kế hoạch học tập chuẩn toàn khóa không ngắn hơn so với hình thức đào tạo chính quy.
+
+Thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ tích lũy.
+
+# 4. Học liệu đào tạo từ xa
+
+Học liệu đào tạo từ xa là tài liệu giảng dạy, học tập; nghiên cứu được cơ sở đào tạo biên soạn, lựa chọn; thẩm định, duyệt và sử dụng tại cơ sở đào tạo phù hợp với từng phương thức đào tạo từ xa.
+
+Học liệu đào tạo từ xa gồm học liệu chính và các học liệu bổ trợ phục vụ cho quá trình đào tạo.
+
+Học liệu chính bảo đảm cung cấp và truyền tải đầy đủ nội dung của học phần/môn học để người học có thể tự học phù hợp với phương thức đào tạo từ xa.
+---
+# 33
+
+Trình được biên soạn cho đào tạo từ xa, sách tham khảo, tài liệu hướng dẫn học.
+
+b) Đối với phương thức Thư tín: Học liệu chính là tài liệu in bao gồm giáo tập, nghiên cứu; sách bài tập, tài liệu hướng dẫn thi, kiểm tra;
+
+c) Đối với phương thức Phát thanh - Truyền hình: Học liệu chính là các chương trình phát thanh, truyền hình.
+
+Học liệu bổ trợ cung cấp các nội dung chi tiết hỗ trợ người học hiểu biết sâu sắc, đầy đủ những nội dung trong học liệu chính.
+
+5. Hiệu trưởng hoặc giám đốc cơ sở đào tạo (sau đây viết chung là hiệu trưởng) thực hiện đào tạo từ xa theo các quy định tại Điều này và quy định của Bộ Giáo dục và Đào tạo về việc biên soạn, lựa chọn; thẩm định, duyệt và sử dụng tài liệu giảng dạy, giáo trình giáo dục đại học. Hằng năm, cơ sở đào tạo tổ chức rà soát, đánh giá và cập nhật học liệu đáp ứng yêu cầu về chuyên môn và kỹ thuật.
+
+# Điều 5. Yêu cầu tối thiểu để thực hiện đào tạo từ xa
+
+1. Hệ thống đào tạo từ xa của cơ sở đào tạo đã được xây dựng hoàn chỉnh bảo đảm đầy đủ các thành phần theo quy định tại khoản 5 Điều 2 của Quy chế này.
+
+2. Cơ sở đào tạo thực hiện chương trình đào tạo từ xa đối với những ngành đã có quyết định mở ngành đào tạo và đã tuyển sinh tối thiểu 03 khóa.
+
+3. Chương trình đào tạo từ xa đã được xây dựng; thẩm định và ban hành theo quy định về chuẩn chương trình đào tạo; các chuẩn chương trình đào tạo do Bộ Giáo dục và Đào tạo ban hành và các quy định của Quy chế này.
+
+4. Bộ phận phụ trách tổ chức và quản lý đào tạo từ xa quản lý, giám sát quá trình giảng dạy, học tập; thời lượng tương tác giữa giảng viên và người học; thi, kiểm tra, đánh giá và cấp văn bằng.
+
+5. Hệ thống kiểm tra, đánh giá kết quả học tập bảo đảm khách quan, trung thực; đánh giá được quá trình học tập, đánh giá kết thúc học phần, môn học;
+
+6. Quy chế của cơ sở đào tạo bảo đảm tuân thủ các quy định của Quy chế này và các quy định khác của pháp luật có liên quan.
+
+7. Đội ngũ giảng viên, cán bộ hỗ trợ học tập, cán bộ quản lý đủ về số lượng; chất lượng; trình độ và cơ cấu; đã được bồi dưỡng về kỹ năng; phương pháp giảng dạy và quản lý đào tạo từ xa.
+---
+# 4
+
+và các chuẩn chương trình đào tạo có liên quan do Bộ Giáo dục và Đào tạo ban hành. Giảng viên cơ hữu phải đáp ứng quy định về chuẩn chương trình đào tạo.
+
+Giảng viên cơ hữu có trình độ tiến sĩ chịu trách nhiệm chủ trì xây dựng, tổ chức thực hiện chương trình đào tạo và chủ trì giảng dạy chương trình theo quy định về mở ngành.
+
+Đào tạo phải trực tiếp tham gia giảng dạy chương trình đào tạo từ xa; giảng viên thỉnh giảng; và được tăng lên tối đa 50% khi và chỉ khi giảng viên thỉnh giảng.
+
+Tối đa 30% khối lượng chương trình đào tạo từ xa được thực hiện bởi giảng viên cơ hữu của cơ sở đào tạo theo quy định tại Điều 7 của Quy chế này thực hiện trên 20% khối lượng chương trình đào tạo từ xa.
+
+Bảo đảm đầy đủ cơ sở vật chất, thiết bị, thư viện; học liệu để triển khai chương trình đào tạo từ xa, cụ thể:
+
+- Có phòng kỹ thuật đủ diện tích để lắp đặt các thiết bị của hệ thống đào tạo từ xa; có phòng làm việc đủ diện tích và trang thiết bị phục vụ sinh hoạt của các cán bộ quản lý, cán bộ hỗ trợ học tập và giảng viên;
+- Có đủ trang thiết bị, hạ tầng, phần mềm cần thiết phục vụ cho phương thức quản lý tuyển sinh, đào tạo và cấp văn bằng cùng với hệ thống quản lý đào tạo chính quy;
+- Có hệ thống kỹ thuật hỗ trợ thực hiện đào tạo từ xa bảo đảm: Cung cấp các thông tin liên quan tới đào tạo từ xa; hỗ trợ và truyền tải nội dung chương trình đào tạo từ xa tới người học; giám sát, quản lý và đánh giá người học trong quá trình học tập;
+- Có thư viện, thư viện điện tử với số lượng sách, giáo trình; tài liệu tham khảo và các cơ sở dữ liệu điện tử chuyên ngành đủ để cung cấp, hỗ trợ cho việc học tập và nghiên cứu của người học;
+- Có đủ học liệu chính và học liệu bổ trợ cho 02 năm học đầu của chương trình đào tạo từ xa và có kế hoạch xây dựng và phát triển học liệu chính và học liệu bổ trợ cho các học phần còn lại cho các năm học tiếp theo của toàn khóa học để chậm nhất trước 01 năm (12 tháng) tính đến thời điểm bắt đầu diễn ra năm học mới phải có đầy đủ học liệu phù hợp với phương thức đào tạo từ xa.
+
+Đáp ứng quy định về ứng dụng công nghệ thông tin trong đào tạo trực tuyến đối với giáo dục đại học của Bộ Giáo dục và Đào tạo.
+
+Có đề án đào tạo từ xa được xây dựng cho từng chương trình đào tạo cụ thể trong đó mô tả chi tiết về: sự cần thiết mở đào tạo từ xa; việc chuẩn bị đầy đủ các yêu cầu tối thiểu để thực hiện đào tạo từ xa, giải pháp và lộ trình triển khai theo quy định tại Điều này; phương án phòng ngừa và xử lý rủi ro có thể xảy ra để bảo vệ quyền lợi cho người học, giảng viên, cơ sở đào tạo và các bên liên quan.
+---
+# Điều 6. Đình chỉ hoạt động đào tạo từ xa
+
+1. Cơ sở đào tạo bị đình chỉ hoạt động đào tạo từ xa khi có kết luận của cơ quan nhà nước có thẩm quyền về việc vi phạm của cơ sở đào tạo ở một trong các trường hợp sau:
+
+- a) Tự chủ quyết định đào tạo từ xa khi chưa đủ một trong các yêu cầu tối thiểu để thực hiện đào tạo từ xa theo quy định tại Điều 5 của Quy chế này;
+- b) Không duy trì được một trong các yêu cầu tối thiểu để thực hiện đào tạo từ xa theo quy định tại Điều 5 của Quy chế này;
+- c) Cơ sở đào tạo bị đình chỉ hoạt động ngành đào tạo có chương trình đào tạo từ xa.
+
+2. Bộ trưởng Bộ Giáo dục và Đào tạo quyết định đình chỉ hoạt động đào tạo từ xa từ 06 tháng đến 01 năm đối với cơ sở đào tạo bị cơ quan nhà nước có thẩm quyền kết luận có vi phạm theo quy định tại khoản 1 Điều này và ảnh hưởng tới chất lượng đào tạo, trong đó xác định rõ lý do, phạm vi, thời hạn đình chỉ và công bố công khai trên các phương tiện thông tin đại chúng.
+
+3. Cơ sở đào tạo bị đình chỉ hoạt động đào tạo từ xa theo quy định tại khoản 1 và khoản 2 Điều này phải thực hiện các biện pháp nhằm bảo đảm quyền và lợi ích hợp pháp của người học, giảng viên; cán bộ hỗ trợ học tập, cán bộ quản lý.
+
+4. Sau thời hạn đình chỉ hoạt động đào tạo từ xa, nếu nguyên nhân dẫn đến việc đình chỉ hoạt động ngành đào tạo được khắc phục và cơ sở đào tạo bảo đảm đầy đủ các yêu cầu tối thiểu để thực hiện đào tạo từ xa theo quy định tại Quy chế này, hiệu trưởng quyết định hoạt động đào tạo từ xa trở lại và báo cáo Bộ Giáo dục và Đào tạo.
+
+5. Đối với chương trình đào tạo từ xa đã được phê duyệt đề án và quyết định tuyển sinh hoặc không tuyển sinh được thì quyết định phê duyệt hết hiệu lực.
+
+# Điều 7. Địa điểm tổ chức đào tạo
+
+1. Hoạt động giảng dạy, học tập được thực hiện tại cơ sở đào tạo, phân hiệu của cơ sở đào tạo; riêng những hoạt động thực hành, thực tập, trải nghiệm thực tế, tự học; tự nghiên cứu và giảng dạy trực tiếp có thể được tổ chức ở ngoài cơ sở đào tạo, hoặc tại cơ sở phối hợp đào tạo.
+---
+# 6
+
+trường trung cấp, trung tâm giáo dục thường xuyên; trung tâm giáo dục nghề nghiệp
+
+nghiệp - giáo dục thường xuyên, trường của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, lực lượng vũ trang nhân dân có đủ điều kiện bảo đảm giáo dục thường xuyên; trường của cơ quan nhà nước, tổ chức chính trị; xã hội, lực lượng vũ trang nhân dân có đủ điều kiện bảo đảm
+
+các yêu cầu về môi trường sư phạm; cơ sở vật chất; thiết bị; thư viện; thiết bị thí nghiệm, thực hành, thực tập; cán bộ quản lý để thực hiện chương trình đào tạo từ xa.
+
+# 3. Trách nhiệm của cơ sở đào tạo chủ trì:
+
+a) Quy định cụ thể về phối hợp đào tạo từ xa; tổ chức thẩm định các điều kiện bảo đảm chất lượng của cơ sở phối hợp đào tạo;
+
+b) Ký kết hợp đồng hợp tác đào tạo với cơ sở phối hợp đào tạo trong đó hiện nội dung đã thỏa thuận phù hợp với các quy định của Quy chế này và các quy định pháp luật khác có liên quan;
+
+c) Quản lý chất lượng đào tạo. Trường hợp cơ sở phối hợp đào tạo không đủ điều kiện để tiếp tục đào tạo theo quy định thì phải chuyển người học về cơ sở chủ trì đào tạo hoặc cơ sở phối hợp đào tạo và bảo đảm quyền lợi cho người học;
+
+d) Chịu trách nhiệm trước pháp luật về việc thực hiện hợp đồng hợp tác đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, người học trong suốt quá trình thực hiện hoạt động đào tạo.
+
+# 4. Trách nhiệm của cơ sở phối hợp đào tạo:
+
+a) Ký kết hợp đồng hợp tác đào tạo với cơ sở chủ trì đào tạo;
+
+b) Bảo đảm đủ điều kiện cơ sở vật chất thực hiện đào tạo; tham gia quản lý, tổ chức thi, kiểm tra theo thoả thuận giữa hai bên;
+
+c) Chịu trách nhiệm trước pháp luật về việc thực hiện hợp đồng hợp tác đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, người học trong suốt quá trình thực hiện hoạt động đào tạo tại cơ sở phối hợp đào tạo.
+
+# Chương II
+
+# LẬP KẾ HOẠCH VÀ TỔ CHỨC GIẢNG DẠY
+
+Điều 8. Kế hoạch giảng dạy và học tập tổ chức đăng ký học tập
+
+tư số 08/2021/TT-BGDĐT. và học tập thực hiện theo quy định tại Điều 6 Thông tư số 08/2021/TT-BGDĐT.
+
+2. Tổ chức đăng ký học tập thực hiện theo quy định tại các khoản 1, khoản 2, khoản 3 và điểm b khoản 4 Điều 7 Thông tư số 08/2021/TT-BGDĐT.
+
+# Điều 9. Tổ chức và quản lý đào tạo từ xa
+---
+# 7
+
+về tổ chức giảng dạy và học tập thực hiện theo quy định tại khoản 1 và khoản 3
+
+ye to chüc giãng day vâ hçc t.p thirc hin theo quy djnh tai khoàn 1 và khoán 3
+
+# 1. Việc tổ chức đào tạo từ xa được thực hiện theo tín chỉ: Các yêu cầu khác
+
+1. \TjC chilic dào tao tr xa di.rc thrc hiên theo tin chi. Các yêu cu khác
+
+# Điều 8 Thông tư số 08/2021/TT-BGDĐT.
+
+các co s phi hcip dào tao theo quy
+
+Diu 8 Thông tu sO 08/2021/TT‑BGDDT.
+
+djnh tai Hợp tác tổ chức đào tạo từ xa tại các cơ sở phối hợp đào tao theo quy
+
+# 2
+
+Diêu 7 Quy chê nay.
+
+# 3
+
+Phân công giảng viên, cán bộ hỗ trợ học tập thực hiện chương trình đào tạo từ xa bảo đảm quy định tại khoản 7 Điều 5 của Quy chế này.
+
+tao tir xa bão darn quy djnh tai khoãn 7 Diêu 5 ciia Quy chê nay.
+
+# 4. Tổ chức hoạt động giảng dạy và học tập trực tuyến theo quy định về ứng
+
+T chirc hoat dung giãng day va hçc tap trirc tuyn theo quy djnh v üng
+
+Bộ Giáo dục và Đào tạo.
+
+# 5. Cung cấp cho người học; giảng viên, cán bộ quản lý, cán bộ hỗ trợ: kiến thức, kỹ năng
+
+Cung cp cho nguôi hQc, giâng viCn, can b quan I", can b h tr: kin học từ xa; thông tin về chương trình đào tạo; tài nguyên
+
+thức, kỹ công eii kiêm tra, dánh giá; co hi tham gia
+
+thúc, k näng ye day công cụ kiếm tra, đánh giá; cơ hội tham gia tư vấn định hướng nghề nghiệp, các buổi hướng dẫn, chương trình thực tập nghề nghiệp.
+
+# 6.
+
+Vận hành hiệu quả hệ thống kỹ thuật hỗ trợ giúp người học tiếp cận dễ dàng nguồn học liệu, kết nối người học với người học, người học với giảng viên
+
+và hỗ trợ giảng viên kiểm tra, giám sát, đánh giá mức độ tiến bộ của người học.
+
+# 7. Việc tổ chức đào tạo từ xa phải bảo đảm sự tương tác giữa người học
+
+tập chính: tham dự buổi học; buổi hướng dẫn, trao đổi thảo luận chuyên đề và hội thảo; học tập những nội dung từ các học liệu chính và các học liệu bổ trợ; thực hiện các hoạt động học tập và làm các bài tập đánh giá; tham vấn và đặt câu hỏi với các giảng viên.
+
+# 8.
+
+Việc tham gia của người học trong quá trình đào tạo phải được giám sát
+
+các hình thức phù hợp với phương thức tổ chức đào tạo (điểm danh, xác thực nhật ký học tập), với mỗi hoạt động học tập và khối lượng học tập được thiết kế trong đề cương chi tiết học phần.
+
+# 9.
+
+Quy chế của cơ sở đào tạo quy định chi tiết về phân công giảng viên, lấy ý kiến phản hồi của người học, thực hiện công khai, trách nhiệm và quyền hạn
+
+của giảng viên; người học; của các đơn vị chuyên môn và các đơn vị quản lý, hỗ trợ liên quan; quy định về bảo vệ thông tin cá nhân và bảo mật dữ liệu học tập.
+
+# 10.
+
+Các quy định khác đối với người học thực hiện theo quy định tại Điều 15,
+
+# Chương III
+
+# ĐÁNH GIÁ KẾT QUẢ HỌC TẬP VÀ CẤP VĂN BẰNG
+
+# DANH GIÁ KẾT QUẢ HỌC TẬP VÀ CẤP VĂN BẰNG
+
+# Điều 10. Đánh giá kết quả học tập
+
+# 1. Đánh giá kết quả học tập thực hiện theo quy định tại Điều 9 và Điều 10
+
+Thông tư số 08/2021/TT-BGDĐT.
+
+Thông tu s 08/2021,TT‑BGDDT.
+---
+# 2. Tổ chức thi, đánh giá kết thúc học phần phối hợp đào tạo theo quy chế
+
+2. T chrc thi, dánh giák& thüc h9c ph.n theo hInh thrc trçrc ti&p ngithi theo hình thức trực tiếp người học phải tập trung tại cơ sở đào tạo hoặc tại cơ sở h90 phãi tp trung tai ca s& dào tao hoc tai c so phôi hçp dào tao theo quy chê của cơ sở đào tạo.
+
+cầu về thi kết thúc học phần; được lãnh đạo đơn vị chủ trì phụ trách chuyên môn.
+
+# 3. Đề thi kết thúc học phần được xây dựng phù hợp với nội dung và yêu cầu kiểm tra, xác nhận.
+
+08/2021/TT-BGDĐT.
+
+học tập thực hiện theo quy định tại Điều 11 Thông tư số.
+
+# 4. Xử lý kết quả tốt nghiệp và cấp văn bằng
+
+1. Công nhận kết quả học tập và chuyển đổi tín chỉ thực hiện theo quy định tại Điều 13 Thông tư số 08/2021/TT-BGDĐT.
+
+2. Công nhận tốt nghiệp và cấp văn bằng thực hiện theo quy định tại Điều 14 Thông tư số 08/2021/TT-BGDĐT.
+
+# Chương IV
+
+# TỔ CHỨC THỰC HIỆN
+
+# Điều 12. Bảo đảm chất lượng đào tạo từ xa giám sát nội bộ về hoạt động
+
+1. Cơ sở đào tạo triển khai: cơ chế kiểm tra, lấy phản hồi từ người học về trải nghiệm học tập, chất lượng học liệu; hiệu quả tổ chức dạy - học, hỗ trợ người học và thi, kiểm tra, đánh giá kết quả học tập;
+
+của phương pháp giảng dạy, cảm nhận về sự hỗ trợ từ giảng viên; cán bộ hỗ trợ, các chức năng phần mềm và lấy phản hồi từ các bên liên quan khác; quy trình xử lý đề xuất; kiến nghị, phản ánh của người học.
+
+# 2. Triển khai kiểm định chất lượng chương trình đào tạo từ xa; cụ thể như sau:
+
+chế này có hiệu lực, chậm nhất sau 3 năm kể từ ngày Quy chế này có hiệu lực,
+
+a) Đối với chương trình đào tạo từ xa đã tuyển sinh trước thời điểm Quy chế này có hiệu lực nhưng chưa có khóa tốt nghiệp; cơ sở đào tạo phải thực hiện kiểm định chất lượng đối với chương trình đào tạo từ xa đã có khóa tốt nghiệp;
+
+b) Đối với chương trình đào tạo từ xa đã tuyển sinh trước thời điểm Quy chế này có hiệu lực nhưng chưa có khóa tốt nghiệp hoặc được phê duyệt sau thời điểm Quy chế này có hiệu lực, cơ sở đào tạo đăng ký kiểm định chất lượng chương trình đào tạo từ xa theo quy định tại khoản 5 Điều 33 Luật Giáo dục đại học (được sửa đổi, bổ sung năm 2018).
+
+cơ sở đào tạo không được tuyển sinh các khóa tiếp theo nếu không thực hiện kiểm định chất lượng chương trình đào tạo từ xa.
+
+# Điều 13. Xây dựng và thực hiện quy chế của cơ sở đào tạo
+
+1. Căn cứ Quy chế này và các quy định pháp luật hiện hành khác có liên quan, cơ sở đào tạo có trách nhiệm:
+---
+# 99
+
+Hướng quy định cụ thể các yêu cầu bảo đảm ngang bằng hoặc cao hơn nhưng hiring quy định cụ thể các yêu cầu bảo đảm ngang bằng hoặc cao hơn.
+
+1. Xây dựng, ban hành và tổ chức thực hiện quy chế của cơ sở đào tạo theo không trái với những quy định của Quy chế này; xây dựng quy định cụ thể về trình tự, thủ tục quyết định chủ trương và phê duyệt đề án đào tạo từ xa; quyết định chủ trương và phê duyệt đề án đào tạo từ xa.
+2. Ban hành các quyết định thực hiện chương trình đào tạo từ xa, hợp tác từ xa, hợp tác đào tạo, cơ sở phối hợp đào tạo và các thông tin khác có liên quan.
+3. Cập nhật thông tin về đề án đào tạo từ xa, quyết định đào tạo từ xa lên hệ thống cơ sở dữ liệu quốc gia về giáo dục đại học và gửi quyết định đào tạo từ xa kèm theo đề án đào tạo từ xa về Bộ Giáo dục và Đào tạo;
+4. Thực hiện trách nhiệm trong công tác bảo đảm chất lượng giáo dục theo quy định tại Điều 50 Luật Giáo dục đại học (được sửa đổi, bổ sung năm 2018);
+5. Tăng cường liêm chính học thuật; giám sát và kiểm soát việc chống sao chép; bảo đảm tính trung thực của nội dung tiểu luận, đồ án, khóa luận và những báo cáo chuyên đề khác; xây dựng chế tài, nghiêm túc xử lý khi có vi phạm;
+6. Xây dựng phương án phòng ngừa và xử lý rủi ro: báo cáo phân tích, thuyết minh dự báo các tình huống rủi ro có thể xảy ra và các biện pháp ngăn ngừa; khắc phục; báo cáo phân tích cụ thể về các giải pháp xử lý rủi ro trong trường hợp cơ sở đào tạo bị đình chỉ hoạt động ngành đào tạo hoặc đình chỉ hoạt động đào tạo từ xa đối với ngành đào tạo.
+
+# 2. Cơ sở đào tạo tổ chức thực hiện:
+
+1. Tổ chức đào tạo từ xa trước khi tổ chức tuyển sinh (các cơ sở đào tạo đã tổ chức đào tạo từ xa trước khi tổ chức tuyển sinh);
+2. Chuẩn bị đầy đủ các yêu cầu tối thiểu để thực hiện chương trình đào tạo từ xa theo quy định tại khoản 10 Điều 5 Quy chế này); Hằng năm; rà soát các yêu cầu tối thiểu để thực hiện đào tạo từ xa theo quy định tại Điều 5 của Quy chế này;
+3. Phổ biến, hướng dẫn cho người học quy chế của cơ sở đào tạo và các quy định liên quan đến quá trình học tập; các quy định về nghĩa vụ và quyền lợi của người học khi bắt đầu khóa học;
+4. Tổ chức đào tạo, bồi dưỡng về phương pháp và kỹ năng cần thiết cho đội ngũ giảng viên; cán bộ hỗ trợ học tập; cán bộ quản lý;
+5. Tổ chức kiểm tra, thanh tra nội bộ việc thực hiện các quy định của cơ sở đào tạo và Quy chế này;
+6. Duy trì và phát triển hệ thống đào tạo từ xa của cơ sở đào tạo; cập nhật chất lượng đào tạo từ xa theo hướng hội nhập quốc tế.
+---
+# Điều 14. Chế độ báo cáo, lưu trữ và công khai thông tin
+
+# 1. Trước ngày 31 tháng 12 hằng năm:
+
+a) Cơ sở đào tạo báo cáo Bộ Giáo dục và Đào tạo; Ủy ban nhân dân cấp tỉnh và cơ quan quản lý trực tiếp theo hình thức trực tiếp hoặc trực tuyến về công tác tổ chức quản lý đào tạo từ xa và các điều kiện bảo đảm chất lượng đào tạo từ xa (Mẫu báo cáo tại Phụ lục I);
+
+b) Cơ sở phối hợp đào tạo báo cáo Bộ Giáo dục và Đào tạo; Ủy ban nhân dân cấp tỉnh, cấp huyện nơi tổ chức hoạt động đào tạo theo hình thức trực tiếp hoặc trực tuyến về tình hình tuyển sinh và đào tạo tại địa phương (Mẫu báo cáo tại Phụ lục II).
+
+# 2. Cơ sở đào tạo có trách nhiệm hoàn thiện cơ sở dữ liệu tại cơ sở đào tạo
+
+và cập nhật đầy đủ, chính xác dữ liệu về đào tạo từ xa vào hệ thống cơ sở dữ liệu quốc gia về giáo dục đại học theo quy định của Bộ Giáo dục và Đào tạo và các văn bản pháp luật khác có liên quan.
+
+# 3. Cơ sở đào tạo lưu trữ, bảo quản hồ sơ và dữ liệu số về đào tạo từ xa theo quy định của Bộ Giáo dục và Đào tạo và các văn bản pháp luật khác có liên quan.
+
+# 4. Cơ sở đào tạo công khai trên trang thông tin điện tử của cơ sở đào tạo trước khi tổ chức đào tạo từ xa:
+
+a) Quy chế đào tạo từ xa của cơ sở đào tạo và các quy định có liên quan tới đào tạo từ xa;
+
+b) Quyết định đào tạo từ xa;
+
+c) Chương trình đào tạo từ xa;
+
+d) Các điều kiện bảo đảm chất lượng cho đào tạo từ xa (bao gồm thông tin về trình độ, kinh nghiệm của giảng viên; cán bộ hỗ trợ);
+
+e) Thông báo tuyển sinh theo quy chế tuyển sinh hiện hành.
+
+# 5. Cơ sở đào tạo cung cấp và duy trì thông tin trên môi trường học tập, hỗ trợ người học, thường xuyên cập nhật thông tin công khai trên trang thông tin điện tử của cơ sở đào tạo, bảo đảm dễ dàng truy cập; cập nhật; chính xác, dễ đọc, bao gồm tối thiểu các nội dung sau:
+
+a) Các thông tin quy định tại các điểm a, điểm b, điểm c, điểm d khoản 4 Điều này;
+
+b) Số lượng trúng tuyển; đang học; thôi học và tốt nghiệp theo từng khóa, chương trình đào tạo từ xa;
+
+c) Các dữ liệu minh chứng về việc các chương trình đào tạo từ xa đáp ứng hiện đào tạo từ xa theo quy định tại Điều 5 của Quy chế này;
+
+d) Các dữ liệu minh chứng về việc đáp ứng các yêu cầu tối thiểu đề thực hiện đào tạo từ xa.
+---
+# BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+# PHỤ LỤC I
+
+# MẪU BÁO CÁO CÔNG TÁC ĐÀO TẠO TỪ XA ĐỊNH KỲ HẰNG NĂM
+
+(Kèm theo Thông tư số 28 /2023/TT-BGDĐT 'ngày 18 tháng 3 năm 2023 của Bộ trưởng Bộ Giáo dục và Đào tạo)
+
+(Kèm theo Thông tư số 27 /2023/TT-BGDĐT 'ngày 18 tháng 3 năm 2023 của Bộ trưởng Bộ Giáo dục và Đào tạo)
+
+# CƠ QUAN QUẢN LÝ TRỰC TIẾP (nếu có)
+
+CƠ QUAN QUẢN LÝ TRỰC TIẾP (nếu có)
+
+# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Độc lập - Tự do - Hạnh phúc
+
+# TÊN CƠ SỞ ĐÀO TẠO
+
+TÊN CƠ SỞ ĐÀO TẠO
+
+Ngày ... tháng ... năm ...
+
+# BÁO CÁO
+
+# Về công tác đào tạo từ xa trình độ đại học năm ...
+
+# I. Chương trình đào tạo từ xa
+
+# 1. Chương trình đào tạo từ xa
+
+Văn bản cho phép của Bộ Giáo dục và Đào tạo / Văn bản tự chủ
+
+Quyết định ban hành chương trình đào tạo từ xa của cơ quan quản lý.
+
+|TT|Tên chương trình đào tạo từ xa|Tên ngành đào tạo|Số quyết định|Ngày ký|Người ký|
+|---|---|---|---|---|---|
+|1|Tên chương trình đào tạo từ xa|Tên ngành đào tạo|Số quyết định|Ngày ký|Người ký|
+|2|Tên chương trình đào tạo từ xa|Tên ngành đào tạo|Số quyết định|Ngày ký|Người ký|
+
+# Liệt kê các phương thức đào tạo từ xa sử dụng để thực hiện chương trình đào tạo từ xa
+---
+# II. Cơ sở phối hợp đào tạo
+
+|TT|Tên cơ sở|Địa điểm cơ sở|Thành phố|Số hợp tác|Thời gian hợp tác|Tên chương trình đào tạo|
+|---|---|---|---|---|---|---|
+|1| | | | | | |
+
+# III. Người học
+
+|TT|Tên chương trình đào tạo|Tên ngành|Mã ngành|Số người nhập học|Quy mô|Thời điểm thôi nghiệp|
+|---|---|---|---|---|---|---|
+|1| | | | | | |
+
+Ghi chú: Báo cáo số lượng người học theo từng địa điểm đào tạo và số người nhập học phân theo trình độ đầu vào của người học.
+---
+# IV. Giảng viên, cán bộ hỗ trợ học tập, cán bộ quản lý
+
+|Số|Tên chương trình đào tạo từ xa|Số lượng giảng viên|Số lượng cán bộ hỗ trợ|
+|---|---|---|---|
+|1| | | |
+|2| | | |
+
+# V. Phần mềm quản lý và hỗ trợ đào tạo từ xa
+
+|Số|Tên phần mềm quản lý đào tạo từ xa|Đơn vị sản xuất|Chức năng chính của phần mềm|
+|---|---|---|---|
+|1| | | |
+|2| | | |
+
+# VI. Học liệu đào tạo từ xa
+
+(Báo cáo tóm tắt về hoạt động phát triển học liệu đào tạo từ xa)
+---
+# VIL. Tồn tại, hạn chế (nếu có)
+
+# VII. Tn ti, hn chê (nu co)
+
+# VIII. Nguyên nhân và giải pháp khắc phục
+
+# Vifi. Nguyen nhân và giãi pháp khc phiic
+
+# IX. Kiến nghị của cơ sở đào tạo
+
+# IX. I ngh cua ccrsr tào to
+
+Nơi nhận: (để blc);
+
+Nol n1iin: Lãnh ten và dóng du,
+
+Länh tlao co' sô dào to
+
+(Kj đạo cơ sở đào tao
+
+‑ Bộ GDĐT Ten cq quan quâri 1' trrc tip (dê b/c);
+
+Bi GDDT (d b/c); (Ký tên vàdóng dấu)
+
+‑ Tên cơ quan tinh (dê b/c);
+
+‑ UBND UBND cấp tinh (để blc);cap quàn lý trực tiếp (đề blc);
+
+-Luu: VT,
+
+‑ Lixu: VT,
+---
+# BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+# PHỤ LỤC II
+
+# MẪU BÁO CÁO CÔNG TÁC HỢP TÁC ĐÀO TẠO TỪ XA ĐỊNH KỲ HẲNG NĂM
+
+(Kèm theo Thông tư số 18/2023/TT-BGDĐT ngày 48 tháng 3 năm 2023 của Bộ trưởng Bộ Giáo dục và Đào tạo)
+
+(Kèm theo Thông tư số 18/2023/TT-BGDĐT ngày 01 tháng 3 năm 2023 của Bộ trưởng Bộ Giáo dục và Đào tạo)
+
+# CƠ QUAN QUẢN LÝ TRỰC TIẾP (nếu có)
+
+CƠ QUAN QUẢN LÝ TRỰC TIẾP (nếu có)
+
+# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Độc lập - Tự do - Hạnh phúc
+
+Ngày... tháng... năm...
+
+# BÁO CÁO
+
+# Về công tác hợp tác đào tạo từ xa trình độ đại học năm
+
+# I. Các cơ sở chủ trì đào tạo
+
+# Thỏa thuận hợp tác ĐTTX
+
+|TT|Tên cơ sở đào tạo|Tỉnh/ Thành phố nơi đặt trụ sở chính của cơ sở đào tạo|Số hợp đồng|Ngày ký|Thời hạn|Tên chương trình đào tạo từ xa|
+|---|---|---|---|---|---|---|
+|1| | | | | | |
+|2| | | | | | |
+---
+# II. Tuyên sinh và đào tạo từ xa
+
+|Số người nhập học|Số người|Quy mô|Tên cơ sở|Chương trình đào tạo|Mã ngành|Đào tạo|Cao đẳng|Đại học|Thôi nghiệp|Thời điểm|
+|---|---|---|---|---|---|---|---|---|---|---|
+|(6)|(7)|(8)|(9)|(10)|(12)|(12)|(13)|(13)|(6)|(1)|
+|1|22| | | | | | | | | |
+
+# III. Tồn tại, hạn chế (nếu có)
+
+# IV. Nguyên nhân và giải pháp khắc phục
+
+# V. Kiến nghị của cơ sở phối hợp đào tạo
+
+Nơi nhận:
+
+- Lãnh đạo cơ sở phối hợp đào tạo (Ký tên và đóng dấu)
+- Bộ GDĐT (để b/c)
+- UBND tỉnh/huyện (để b/c)
+- Lưu: VT
+---
+# ĐẠI HỌC ĐÀ NẴNG
+
+# DAI HOC DA NANG
+
+# CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+# CONG HOA xA HO! CHU NGHIA VIT NAM
+
+# TRƯỜNG ĐẠI HỌC BÁCH KHOA
+
+# TRUNG DIỆN HQC BACH KHOA
+
+Độc lập - Tự do - Hạnh phúc
+
+Đà Nẵng, ngày 05 tháng 01 năm 2024
+
+# PHIẾU GIẢI QUYẾT VĂN BẢN ĐẾN
+
+Thông tư số 28/2023/TT-BGDĐT ngày 28/12/2023 của Bộ Giáo dục và Đào tạo
+
+Thông tư số 28/2023/TT-BGDĐT ngày 28/12/2023 về việc ban hành Quy chế đào tạo từ xa trình độ đại học
+
+# Kính chuyển:
+
+Ban Giám hiệu
+
+# Ý kiến của Ban Giám hiệu:
+
+Thời hạn hoàn thành:
+
+# Ý kiến của lãnh đạo đơn vị chủ trì thực hiện:
+
+Thời hạn hoàn thành:
+
+# Ý kiến của lãnh đạo đơn vị phối hợp thực hiện:
+
+Thời hạn hoàn thành:
+
+# Ý kiến đề xuất của người giải quyết:
+
+# 1. Đơn vị chủ trì thực hiện.
+
+Ghi tên loại; số, ký hiệu; ngày, tháng, năm; cơ quan (tổ chức) ban hành và trích yếu nội dung của văn bản đến.
+
+# 2. Phân này dành cho Trưởng Phòng TCHC:
+
+Ghi rõ tên của thành viên Ban Giám hiệu sẽ cho ý kiến chỉ đạo đối với văn bản đến này.
+
+# Ý kiến phân phối, chỉ đạo giải quyết của Ban Giám hiệu giao đơn vị, cá nhân chủ trì:
+
+Ý kiến phân phối, chỉ đạo giải quyết của Ban Giám hiệu giao đơn vị, cá nhân chủ trì; các đơn vị; cá nhân tham gia phối hợp giải quyết văn bản đến (nếu có); thời hạn giải quyết đối với mỗi đơn vị, cá nhân (nếu có) và ngày tháng cho ý kiến phân phối; giải quyết; ký tên:
+
+# Ý kiến phân phối, chỉ đạo giải quyết của lãnh đạo đơn vị:
+
+Ý kiến phân phối, chỉ đạo giải quyết của lãnh đạo đơn vị; cá nhân tham gia phối hợp giao cho cá nhân; thời hạn giải quyết đối với cá nhân (nếu có) và ngày tháng cho ý kiến; ký tên.
+
+# Ý kiến đề xuất giải quyết văn bản đến của cá nhân:
+
+Ý kiến đề xuất giải quyết văn bản đến của cá nhân và ngày tháng đề xuất ý kiến, ký tên.

@@ -5,6 +5,7 @@ from fastapi import (
     WebSocket,
     WebSocketDisconnect,
     HTTPException,
+    BackgroundTasks
 )
 from http import HTTPStatus
 from contextlib import asynccontextmanager
@@ -34,9 +35,15 @@ from database import get_db
 load_dotenv()
 nest_asyncio.apply()
 
+
+
+
 #####################                   Global variables                 #####################
 #####################                   Global variables                 #####################
 #####################                   Global variables                 #####################
+
+
+
 
 COUNT = 0
 EMBEDDING_MODEL = None
@@ -56,13 +63,25 @@ parser_2 = LlamaParse(
     split_by_page=False,
     api_key=os.getenv("LLAMAPARSE_API_KEY_2"),
 )
-node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=128)
+parser_3 = LlamaParse(
+    result_type="markdown",
+    auto_mode_trigger_on_table_in_page=True,
+    language="vi",
+    split_by_page=False,
+    api_key=os.getenv("LLAMAPARSE_API_KEY_3"),
+)
+node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=192)
 qdrant_collection_name = "qdrant_vector_store_collection"
 
 
+
+
 ############################                SETUP                   ###########################
 ############################                SETUP                   ###########################
 ############################                SETUP                   ###########################
+
+
+
 
 
 def generateDataSource():
@@ -119,26 +138,9 @@ def load_llm_embedding_model():
     LLM["Gemini"] = Gemini(
         model=os.getenv("GEMINI_MODEL"),
         api_key=os.getenv("GOOGLE_API_KEY"),
-        temperature=0.5,
+        temperature=0.7,
         max_tokens=2048,
     )
-
-    # LLM["LMStudio"] = LMStudio(
-    #     model_name=os.getenv("LLMSTUDIO_MODEL"),
-    #     request_timeout=60.0,
-    #     temperature=0.6,
-    # )
-    
-    LLM['Ollama'] = Ollama(
-        model=os.getenv("OLLAMA_MODEL"),
-        request_timeout=120.0,
-        temperature=0.6,
-    )
-
-    # Theo kieu inference
-    """ embedding_model = HuggingFaceEmbedding(
-        model_name="sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
-    ) """
 
     # Theo kieu optium (model da duoc tai ve)
     EMBEDDING_MODEL = OptimumEmbedding(folder_name="./sentence-transformers")
@@ -169,9 +171,17 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+
+
+
+
 ######################                    MUTATION INDEX                  #####################
 ######################                    MUTATION INDEX                  #####################
 ######################                    MUTATION INDEX                  #####################
+
+
+
+
 
 
 @app.post("/document/sync")
@@ -179,34 +189,43 @@ async def sync(request: SyncRequest):
     global INDEX, COUNT
     document: Document = None
     print("---ACCESS---SYNC---DOCUMENT")
+    
     try:
         COUNT+=1
-        if COUNT%2 == 0:
+        if COUNT%3 == 0:
             document = await get_doc_from_digital_ocean(
                 parser=parser_1, fileUrl=request.fileUrl
             )
-        else:
+        elif COUNT%3 == 1:
             document = await get_doc_from_digital_ocean(
                 parser=parser_2, fileUrl=request.fileUrl
             )
-        set_metadata_from_request(request, document)
-        for key, value in document.metadata.items():
-            print(f"Key: {key} --- Value: {value}")
+        else:
+            document = await get_doc_from_digital_ocean(
+                parser=parser_3, fileUrl=request.fileUrl
+            )
+            
     except:
         print("---SYNC---PARSE-DOCUMENT---FAILED---")
         raise HTTPException(HTTPStatus.BAD_REQUEST)
     
+    set_metadata_from_request(request, document)
+    for key, value in document.metadata.items():
+        print(f"Key: {key} --- Value: {value}")
+
+    doc_id = document.doc_id
+    nodes = node_parser.get_nodes_from_documents([document])
+    
+    try:
+        INDEX.insert_nodes(nodes)
+    except:
+        print("---SYNC---ADD-TO-QDRANT---FAILED---")
+        raise HTTPException(HTTPStatus.BAD_REQUEST)
     
     os.makedirs(request.key)
     file_path = os.path.join(request.key, 'file.txt')
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(document.text)
-
-
-    doc_id = document.doc_id
-    nodes = node_parser.get_nodes_from_documents([document])
-    INDEX.insert_nodes(nodes)
-
     print("---SYNC---SUCCESSFULLY---")
     return {"doc_id": doc_id, "message": "Successfully sync document"}
 
@@ -218,33 +237,44 @@ async def remove_and_resync(request: RemoveAndSyncRequest):
     print("---ACCESS---REMOVE-AND-SYNC---DOCUMENT")
     try:
         COUNT+=1
-        if COUNT%2 == 0:
+        if COUNT%3 == 0:
             document = await get_doc_from_digital_ocean(
                 parser=parser_1, fileUrl=request.fileUrl
             )
-        else:
+        elif COUNT%3 == 1:
             document = await get_doc_from_digital_ocean(
                 parser=parser_2, fileUrl=request.fileUrl
             )
-        set_metadata_from_request(request, document)
-        for key, value in document.metadata.items():
-            print(f"Key: {key} --- Value: {value}")
+        else:
+            document = await get_doc_from_digital_ocean(
+                parser=parser_3, fileUrl=request.fileUrl
+            )
+
     except:
         print("---REMOVE-AND-SYNC---PARSE-DOCUMENT---FAILED---")
         raise HTTPException(HTTPStatus.BAD_REQUEST)
     
+    set_metadata_from_request(request, document)
+    for key, value in document.metadata.items():
+        print(f"Key: {key} --- Value: {value}")
+            
+    doc_id = document.doc_id
+    nodes = node_parser.get_nodes_from_documents([document])
+        
+    try:
+        INDEX.insert_nodes(nodes)
+    except:
+        print("---REMOVE-AND-SYNC---ADD-TO-QDRANT---FAILED---")
+        raise HTTPException(HTTPStatus.BAD_REQUEST)
+        
+    shutil.rmtree(request.old_key) 
     
-    shutil.rmtree(request.old_key)
+    INDEX.delete_ref_doc(request.doc_id)  
+             
     os.makedirs(request.key)
     file_path = os.path.join(request.key, 'file.txt')
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(document.text)
-        
-
-    doc_id = document.doc_id
-    nodes = node_parser.get_nodes_from_documents([document])
-    INDEX.delete_ref_doc(request.doc_id)
-    INDEX.insert_nodes(nodes)
 
     print("---REMOVE-AND-SYNC---SUCCESSFULLY")
     return {"doc_id": doc_id, "message": "Successfully remove and sync document"}
@@ -254,32 +284,40 @@ async def remove_and_resync(request: RemoveAndSyncRequest):
 async def unsync(request: UnsyncRequest):
     global INDEX
     print("---ACCESS---UNSYNC---DOCUMENT")
-    
-    
+        
     shutil.rmtree(request.key)
-    
     
     INDEX.delete_ref_doc(ref_doc_id=request.doc_id)
     return {"message": "Successfully unsync document"}
 
+
 @app.post("/document/resync")
 async def resync(request: ResyncRequest):
+    document = SimpleDirectoryReader(input_dir=request.key).load_data()[0]
+    set_metadata_from_request(request, document)
+    doc_id = document.doc_id
+    nodes = node_parser.get_nodes_from_documents([document])
+        
     try:
-        document = SimpleDirectoryReader(input_dir=request.key).load_data()[0]
-        set_metadata_from_request(request, document)
-        doc_id = document.doc_id
-        nodes = node_parser.get_nodes_from_documents([document])
-        INDEX.delete_ref_doc(request.doc_id)
         INDEX.insert_nodes(nodes)
-        print("---RESYNC---DOCUMENT---SUCCESSFULLY---")
-        return {"doc_id": doc_id, "message": "Successfully remove and sync document"}
     except:
         print("---RESYNC---DOCUMENT---FAILED---")
         raise HTTPException(HTTPStatus.BAD_REQUEST)
     
+    INDEX.delete_ref_doc(request.doc_id)
+    print("---RESYNC---DOCUMENT---SUCCESSFULLY---")
+    return {"doc_id": doc_id, "message": "Successfully remove and sync document"}
+    
+    
+
+    
+    
 ######################                    CHAT AREA                   #####################
 ######################                    CHAT AREA                   #####################
 ######################                    CHAT AREA                   #####################
+
+
+
 
 
 async def save_message_to_db(message: str, role: str, conversation_id, pool):
@@ -311,22 +349,25 @@ async def create_engine():
     retriever_auto = VectorIndexAutoRetriever(
         index=INDEX,
         vector_store_info=get_vector_store_info(),
-        llm=LLM['Ollama'],
-        similarity_top_k=7,
+        llm=LLM['Gemini'],
+        similarity_top_k=10,
     )
+    
     # Default retriever
-    default_retriever = VectorIndexRetriever(
-        index=INDEX,
-        similarity_top_k=7,
-    )
-    retriever = QueryFusionRetriever(
-        retrievers=[default_retriever, retriever_auto],
-        num_queries=1,
-        llm=LLM['Ollama'],
-        mode='relative_score',
-    )
+    # default_retriever = VectorIndexRetriever(
+    #     index=INDEX,
+    #     similarity_top_k=10,
+    # )
+    
+    # retriever = QueryFusionRetriever(
+    #     retrievers=[default_retriever, retriever_auto],
+    #     num_queries=1,
+    #     llm=LLM['Gemini'],
+    #     mode='relative_score',
+    # )
+    
     engine = ContextChatEngine.from_defaults(
-        retriever=retriever,
+        retriever=retriever_auto,
         llm=LLM["Gemini"],
         system_prompt=get_prompt(),
     )
@@ -384,9 +425,10 @@ async def non_save_chat_endpoint(websocket: WebSocket):
         async def run_engine():
             engine = await create_engine()
             response = engine.stream_chat(question)
-            # for node in response.source_nodes:
-            #     print("Node score:", node.score)
+            for node in response.source_nodes:
+                print("Node score:", node.text)
             for token in response.response_gen:
+                print(token)
                 await websocket.send_text(token)
                 await asyncio.sleep(0.2)
             print("Complete streaming")

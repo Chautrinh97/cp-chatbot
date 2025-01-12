@@ -19,10 +19,10 @@ def get_prompt():
             "Given the context information and not prior knowledge, answer the question: {query_str}\n"
             "Follow instructions below.\n"
             "1. Respond in Vietnamese.\n"
-            "2. If the context isn't helpful, inform that no results are available.\n"
-            "3. Format the response using markdown for better readability.\n"
-            "4. Include HTML links at the end of response to the source documents based on metadata {file_url} "
-            "with a title derived from the relevant context and an introducing label for the links.\n"
+            "2. Format the response using markdown for better readability.\n"
+            "3. If the context isn't helpful, inform that no results are available.\n"
+            "4. If the context is helpful, include HTML <a></a> tag format link at the end of response to the first source document based on metadata {file_url} "
+            "with a title derived from the relevant context and an introducing label for the link.\n"
     )
 
 
