@@ -21,7 +21,7 @@ def get_prompt():
             "1. Respond in Vietnamese.\n"
             "2. Format the response using markdown for better readability.\n"
             "3. If the context isn't helpful, inform that no results are available.\n"
-            "4. If the context is helpful, include HTML <a></a> tag format link at the end of response to the first source document based on metadata {file_url} "
+            "4. Include HTML <a></a> tag format link at the end of response to the first source document based on metadata {file_url} "
             "with a title derived from the relevant context and an introducing label for the link.\n"
     )
 
