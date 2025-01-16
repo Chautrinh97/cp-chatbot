@@ -189,25 +189,27 @@ async def sync(request: SyncRequest):
     global INDEX, COUNT
     document: Document = None
     print("---ACCESS---SYNC---DOCUMENT")
-    
-    try:
-        COUNT+=1
-        if COUNT%3 == 0:
-            document = await get_doc_from_digital_ocean(
-                parser=parser_1, fileUrl=request.fileUrl
-            )
-        elif COUNT%3 == 1:
-            document = await get_doc_from_digital_ocean(
-                parser=parser_2, fileUrl=request.fileUrl
-            )
-        else:
-            document = await get_doc_from_digital_ocean(
-                parser=parser_3, fileUrl=request.fileUrl
-            )
-            
-    except:
-        print("---SYNC---PARSE-DOCUMENT---FAILED---")
-        raise HTTPException(HTTPStatus.BAD_REQUEST)
+    if os.path.exists(request.key):
+        document = SimpleDirectoryReader(input_dir=request.key).load_data()[0]
+    else:
+        try:
+            COUNT+=1
+            if COUNT%3 == 0:
+                document = await get_doc_from_digital_ocean(
+                    parser=parser_1, fileUrl=request.fileUrl
+                )
+            elif COUNT%3 == 1:
+                document = await get_doc_from_digital_ocean(
+                    parser=parser_2, fileUrl=request.fileUrl
+                )
+            else:
+                document = await get_doc_from_digital_ocean(
+                    parser=parser_3, fileUrl=request.fileUrl
+                )
+                
+        except:
+            print("---SYNC---PARSE-DOCUMENT---FAILED---")
+            raise HTTPException(HTTPStatus.BAD_REQUEST)
     
     set_metadata_from_request(request, document)
     for key, value in document.metadata.items():
@@ -222,10 +224,11 @@ async def sync(request: SyncRequest):
         print("---SYNC---ADD-TO-QDRANT---FAILED---")
         raise HTTPException(HTTPStatus.BAD_REQUEST)
     
-    os.makedirs(request.key)
-    file_path = os.path.join(request.key, 'file.txt')
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(document.text)
+    if not os.path.exists(request.key):
+        os.makedirs(request.key)
+        file_path = os.path.join(request.key, 'file.txt')
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(document.text)
     print("---SYNC---SUCCESSFULLY---")
     return {"doc_id": doc_id, "message": "Successfully sync document"}
 
@@ -285,7 +288,7 @@ async def unsync(request: UnsyncRequest):
     global INDEX
     print("---ACCESS---UNSYNC---DOCUMENT")
         
-    shutil.rmtree(request.key)
+    # shutil.rmtree(request.key)
     
     INDEX.delete_ref_doc(ref_doc_id=request.doc_id)
     return {"message": "Successfully unsync document"}
@@ -354,20 +357,20 @@ async def create_engine():
     )
     
     # Default retriever
-    # default_retriever = VectorIndexRetriever(
-    #     index=INDEX,
-    #     similarity_top_k=10,
-    # )
+    default_retriever = VectorIndexRetriever(
+        index=INDEX,
+        similarity_top_k=10,
+    )
     
-    # retriever = QueryFusionRetriever(
-    #     retrievers=[default_retriever, retriever_auto],
-    #     num_queries=1,
-    #     llm=LLM['Gemini'],
-    #     mode='relative_score',
-    # )
+    retriever = QueryFusionRetriever(
+        retrievers=[default_retriever, retriever_auto],
+        num_queries=2,
+        llm=LLM['Gemini'],
+        mode='relative_score',
+    )
     
     engine = ContextChatEngine.from_defaults(
-        retriever=retriever_auto,
+        retriever=retriever,
         llm=LLM["Gemini"],
         system_prompt=get_prompt(),
     )
@@ -393,8 +396,6 @@ async def chat_endpoint(websocket: WebSocket):
             nonlocal chunks
             engine = await create_engine()
             response = engine.stream_chat(question)
-            # for node in response.source_nodes:
-            #     print("Node score:", node.score)
             for token in response.response_gen:
                 await websocket.send_text(token)
                 chunks += token
