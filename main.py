@@ -189,27 +189,25 @@ async def sync(request: SyncRequest):
     global INDEX, COUNT
     document: Document = None
     print("---ACCESS---SYNC---DOCUMENT")
-    if os.path.exists(request.key):
-        document = SimpleDirectoryReader(input_dir=request.key).load_data()[0]
-    else:
-        try:
-            COUNT+=1
-            if COUNT%3 == 0:
-                document = await get_doc_from_digital_ocean(
-                    parser=parser_1, fileUrl=request.fileUrl
-                )
-            elif COUNT%3 == 1:
-                document = await get_doc_from_digital_ocean(
-                    parser=parser_2, fileUrl=request.fileUrl
-                )
-            else:
-                document = await get_doc_from_digital_ocean(
-                    parser=parser_3, fileUrl=request.fileUrl
-                )
-                
-        except:
-            print("---SYNC---PARSE-DOCUMENT---FAILED---")
-            raise HTTPException(HTTPStatus.BAD_REQUEST)
+    
+    try:
+        COUNT+=1
+        if COUNT%3 == 0:
+            document = await get_doc_from_digital_ocean(
+                parser=parser_1, fileUrl=request.fileUrl
+            )
+        elif COUNT%3 == 1:
+            document = await get_doc_from_digital_ocean(
+                parser=parser_2, fileUrl=request.fileUrl
+            )
+        else:
+            document = await get_doc_from_digital_ocean(
+                parser=parser_3, fileUrl=request.fileUrl
+            )
+            
+    except:
+        print("---SYNC---PARSE-DOCUMENT---FAILED---")
+        raise HTTPException(HTTPStatus.BAD_REQUEST)
     
     set_metadata_from_request(request, document)
     for key, value in document.metadata.items():
@@ -224,11 +222,10 @@ async def sync(request: SyncRequest):
         print("---SYNC---ADD-TO-QDRANT---FAILED---")
         raise HTTPException(HTTPStatus.BAD_REQUEST)
     
-    if not os.path.exists(request.key):
-        os.makedirs(request.key)
-        file_path = os.path.join(request.key, 'file.txt')
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(document.text)
+    os.makedirs(request.key)
+    file_path = os.path.join(request.key, 'file.txt')
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(document.text)
     print("---SYNC---SUCCESSFULLY---")
     return {"doc_id": doc_id, "message": "Successfully sync document"}
 
@@ -288,7 +285,7 @@ async def unsync(request: UnsyncRequest):
     global INDEX
     print("---ACCESS---UNSYNC---DOCUMENT")
         
-    # shutil.rmtree(request.key)
+    shutil.rmtree(request.key)
     
     INDEX.delete_ref_doc(ref_doc_id=request.doc_id)
     return {"message": "Successfully unsync document"}
